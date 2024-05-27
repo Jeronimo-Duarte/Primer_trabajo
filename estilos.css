@@ -2,7 +2,9 @@ body{
     background: rgb(251,63,63);
     background: linear-gradient(90deg, rgba(251,63,63,1) 0%, rgba(247,133,133,1) 50%, rgba(252,140,70,1) 100%);
 }
-
+html{
+    font-size: 20px;
+}
 
 .cala{
     width: 7%;
@@ -19,5 +21,16 @@ body{
 }
 
 .partido_s img{
-    width: 5%;
+    width: 100%;
+    border-radius: 10px;
+    transition: all, 1s;
+}
+
+.partido_s img:hover{
+    width: 104%;
+}
+
+.footer{
+    padding-top: 2rem;
+    height: 2rem;
 }
