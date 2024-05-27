@@ -1,0 +1,23 @@
+body{
+    background: rgb(251,63,63);
+    background: linear-gradient(90deg, rgba(251,63,63,1) 0%, rgba(247,133,133,1) 50%, rgba(252,140,70,1) 100%);
+}
+
+
+.cala{
+    width: 7%;
+}
+
+
+.cala img{
+    width: 75%;
+}
+
+
+.partido img{
+    width: 25%;
+}
+
+.partido_s img{
+    width: 5%;
+}
