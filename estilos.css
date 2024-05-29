@@ -5,7 +5,7 @@
 
 
 html{
-    font-size: 20px;
+    font-size: 10px;
     height: 100%;
 }
 
@@ -57,6 +57,49 @@ iframe {
 }
 
 
-.font-19{
-    font-size: 19px;
+.titulos{
+    font-size: 24px;
 }
+
+.bg-beige{
+    background-color: beige;
+}
+
+
+.jugadores{
+   display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    grid-template-rows: repeat(2,4fr);
+    row-gap: 4rem;
+    padding: 2rem;
+    column-gap: 4rem;
+
+}
+
+
+.jugador:hover{
+   background-color: rgb(248, 86, 86);
+
+}
+
+
+
+@media(min-width:768px){
+    .jugadores{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 2fr;
+    }
+   
+}
+
+@media(min-width:1000px){
+    .jugadores{
+        padding-left: 11rem;
+    }
+
+    .jugador{
+        width: 19rem;
+    }
+   
+}
+
